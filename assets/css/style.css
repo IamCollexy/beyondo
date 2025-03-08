@@ -187,7 +187,7 @@ hr {
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
   background: none;
-  color: #f85f46; }
+  color: #F8841F; }
 
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
   margin-left: 0;
@@ -221,13 +221,13 @@ hr {
   .navbar-inverse .navbar-nav li a:focus,
   .navbar-inverse .navbar-nav li a:hover {
     background-color: rgba(0, 0, 0, 0);
-    color: #f85f46; }
+    color: #F8841F; }
 
 .navbar-inverse .navbar-nav > li.open > a,
 .navbar-inverse .navbar-nav > li.open > a:hover,
 .navbar-inverse .navbar-nav > li.open > a:focus {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  color: #f85f46; }
+  color: #F8841F; }
 
 .navbar-nav li .dropdown-menu {
   border-radius: 0;
@@ -265,7 +265,7 @@ hr {
   .top-nav .top-social a i {
     color: #002e5b; }
   .top-nav .top-social a i:hover {
-    color: #f85f46; }
+    color: #F8841F; }
 
 .affix {
   background: #3e3ad5;
@@ -285,7 +285,7 @@ hr {
   width: 100%; }
 
 .getbtn {
-  background: #f85f46;
+  background: #F8841F;
   padding: 15px 25px !important;
   margin-top: 10px;
   border-radius: 5px; }
@@ -300,7 +300,11 @@ hr {
 /*--- main-header ---*/
 .main-header {
   height: 850px;
-  background: rgba(0, 0, 0, 0) url("../images/header-bg.jpg") no-repeat scroll center 0/cover; }
+  background: url("../images/header-bg.jpg") no-repeat scroll center 0/cover;
+  position: relative;
+  background-color: #10248c;
+}
+
   .main-header .item {
     height: 850px;
     background-size: cover; }
@@ -367,8 +371,8 @@ hr {
 
 .main-header-text a:hover,
 .main-header-text a.active {
-  border: 1px solid #f85f46;
-  background: #f85f46; }
+  border: 1px solid #F8841F;
+  background: #F8841F; }
 
 .main-header2 {
   height: 100%;
@@ -420,7 +424,7 @@ hr {
   padding: 10px 0; }
   .bdrcrums li {
     display: inline;
-    color: #f85f46; }
+    color: #F8841F; }
   .bdrcrums li a {
     color: #fff; }
 
@@ -507,7 +511,7 @@ hr {
 .about2::after {
   position: absolute;
   content: "";
-  background: url(../images/about2.jpg) no-repeat right 0;
+  background: url('../images/about2.jpg') no-repeat right 0;
   right: 0;
   top: 0;
   width: 50%;
@@ -617,7 +621,7 @@ hr {
     margin-top: 32px; }
 
 .px-bg-counter {
-  background: rgba(0, 0, 0, 0) url("../images/px-bg.jpg") no-repeat scroll center 0/cover;
+  background: rgba(0, 0, 0, 0) url("../images/px-bg2.jpg") no-repeat scroll center 0/cover;
   padding: 80px 0 100px;
   text-align: center; }
   .px-bg-counter h2 {
@@ -725,7 +729,7 @@ hr {
       text-align: center;
       padding: 0 30px; }
     .news .news-text h3 a:hover {
-      color: #f85f46; }
+      color: #F8841F; }
     .news .news-text h4 {
       color: #1b2631; }
 
@@ -782,7 +786,7 @@ hr {
   .blog-deatils #comments #commentform p {
     margin: 0 0 10px; }
   .blog-deatils #comments #commentform p.form-submit input {
-    background: #f85f46;
+    background: #F8841F;
     border-radius: 0;
     color: #fff;
     line-height: 24px;
@@ -921,7 +925,7 @@ hr {
       .blog-deatils aside li a {
         color: #002e5b; }
       .blog-deatils aside li a:hover {
-        color: #f85f46; }
+        color: #F8841F; }
 
 .comment-author img {
   border: 5px solid #f5f5f5;
@@ -1055,8 +1059,8 @@ ol.comment-list {
         padding: 8px 20px;
         color: #3e3ad5; }
       .prices .price-box .btn-box a:hover {
-        border: 1px solid #f85f46;
-        background: #f85f46;
+        border: 1px solid #F8841F;
+        background: #F8841F;
         color: #fff; }
   .prices .active {
     border: 2px solid #3e3ad5; }
@@ -1098,7 +1102,7 @@ ol.comment-list {
     padding: 10px 20px !important;
     box-shadow: none; }
   .faq-from .btn-custom {
-    background-color: #f85f46 !important;
+    background-color: #F8841F !important;
     border-radius: 0;
     color: #ffffff !important;
     float: left;
@@ -1168,7 +1172,7 @@ ol.comment-list {
     color: #fff;
     height: 46px; }
   .footer .newslater .btn-custom {
-    background: #f85f46 !important;
+    background: #F8841F !important;
     padding: 10px 0;
     float: left;
     width: 50%;
@@ -1198,7 +1202,7 @@ ol.comment-list {
       .copy-right .social-f li a {
         color: #fff; }
       .copy-right .social-f li a:hover {
-        color: #f85f46; }
+        color: #F8841F; }
 
 /*--- responsive ---*/
 @media (min-width: 320px) and (max-width: 736px) {
@@ -1268,21 +1272,23 @@ ol.comment-list {
   .main-header {
     height: 100%;
     margin-top: 0;
-    text-align: center; }
+    text-align: center; 
+  
+  }
 
   .top-nav li {
     display: none; }
 
   .navbar-inverse .navbar-toggle {
-    background: #f85f46;
-    border-color: #f85f46;
+    background: #F8841F;
+    border-color: #F8841F;
     margin-bottom: 18px;
     color: #002e5b;
     margin-top: 18px; }
 
   .navbar-inverse .navbar-toggle:focus,
   .navbar-inverse .navbar-toggle:hover {
-    background-color: #f85f46; }
+    background-color: #F8841F; }
 
   .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #fff; }
